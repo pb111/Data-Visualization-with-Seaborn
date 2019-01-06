@@ -1,4 +1,4 @@
-# Data-Visualization-with-Seaborn
+# Data Visualization with Seaborn
 
 
 This project is about Data Visualization with Seaborn. 
