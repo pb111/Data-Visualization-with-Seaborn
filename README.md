@@ -17,7 +17,7 @@ The contents of this project are divided into various sections as follows:-
 
 
 
-========================================================================
+================================================================================
 
 ## 1. Introduction to Seaborn
 
