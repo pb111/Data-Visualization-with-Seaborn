@@ -1,10 +1,10 @@
 # Data Visualization with Seaborn Project
 
+The subject of this project is Seaborn. It is a Python data visualization library based on Matplotlib. 
 
-This project is about Data Visualization with Seaborn. 
+The contents of this project is divided into various sections which are listed below:-
 
 
-The contents of this project are divided into various sections as follows:-
 
 
 ## Table of Contents:-
