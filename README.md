@@ -10,37 +10,7 @@ The contents of this project is divided into various sections which are listed b
 ## Table of Contents:-
 
 
-1.	Introduction to Seaborn
-2.	Comparison of Seaborn and Matplotlib
-3.	Seaborn API Overview
-4.	Seaborn functionality
-5.	Seaborn installation
-6.	Import Python libraries
-7.	Import Seaborn
-8.	Set figure aesthetics with set( ) method
-9.	Seaborn figure styles
-10.	Scaling plot elements
-11.	Scatter plot
-12.	Line plot
-13.	Box plot
-14.	Violin plot
-15.	Point plot
-16.	Bar plot
-17.	Count plot
-18.	Joint plot
-19.	Pair plot
-20.	Dist plot
-21.	Kde plot
-22.	Lm plot
-23.	Reg plot
-24.	Resid plot
-25.	Heat map
-26.	Cluster map
-27.	Pair grid
-28.	Joint grid
-29.	Summary
-30.	References
-
+1. Introduction to Seaborn	
 
 
 
