@@ -1,6 +1,6 @@
 # Data Visualization with Seaborn
 
-The subject of this project is Seaborn. It is a Python data visualization library based on Matplotlib. 
+**Seaborn** is a Python data visualization library based on Matplotlib. In this project, I explore Seaborn. I discuss Seaborn API overview, its functionality, setting Seaborn aesthetic parameters and colour palette. I discuss different distributions, various plot types and multi-plot grids with seaborn.  
 
 ===============================================================================
 
