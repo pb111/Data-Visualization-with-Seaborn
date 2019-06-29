@@ -238,7 +238,7 @@ Seaborn requires following mandatory Python packages to be installed on the syst
 
 Seaborn also needs statsmodels (>= 0.5.0) package to be installed on the system.
 
-=================================================================================
+===============================================================================
 
 ## 6. Import Python libraries
 
