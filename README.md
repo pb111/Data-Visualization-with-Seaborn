@@ -2,8 +2,9 @@
 
 The subject of this project is Seaborn. It is a Python data visualization library based on Matplotlib. 
 
-The contents of this project is divided into various sections which are listed below:-
+===============================================================================
 
+The contents of this project is divided into various sections which are listed below:-
 
 ## Table of Contents
 
@@ -94,8 +95,7 @@ In the world of analytics, data visualization plays an important role to explore
 
 In this project, I discuss **Seaborn** and present a high level overview of various plotting functions and tools associated with Seaborn.
 
-=================================================================================
-
+===============================================================================
 
 ## 2. Comparison of Seaborn and Matplotlib
 
@@ -113,7 +113,7 @@ Seaborn helps to resolve two major problems faced by Matplotlib. The problems ar
 
 2.	Working with data frames
 
-=================================================================================
+===============================================================================
 
 ## 3. Seaborn API Overview
 
@@ -170,8 +170,7 @@ draw the full plot. **JointGrid.plot_joint()** is used to draw a bivariate plot 
 to draw univariate plots for x and y separately. 
 
 
-=================================================================================
-
+===============================================================================
 
 ## 4. Seaborn functionality
 
@@ -195,12 +194,9 @@ below:-
 
 •	It provides several built-in themes for producing stylish looking Matplotlib graphics. 
 
-
-=================================================================================
-
+===============================================================================
 
 ## 5. Seaborn installation
-
 
 To install the latest release of Seaborn, we can use **pip** and run the following command in the terminal:
 
@@ -238,16 +234,11 @@ Seaborn requires following mandatory Python packages to be installed on the syst
 
 •	Pandas (>= 0.15.2)
 
-
 **Recommended dependencies**
-
 
 Seaborn also needs statsmodels (>= 0.5.0) package to be installed on the system.
 
-
 =================================================================================
-
-
 
 ## 6. Import Python libraries
 
@@ -261,36 +252,26 @@ In this section, we import the necessary Python libraries Numpy, Pandas and Matp
 
 `%matplotlib inline`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 7. Import Seaborn
 
-
 We can import Seaborn as
-
 
 `import seaborn`
 
-
 The shorthand notation of Seaborn is **sns**. So, we can import seaborn with usual shorthand notation.
-
 
 `import seaborn as sns`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 8. Import datasets
 
 Seaborn has few important datasets in the library. When Seaborn is installed, the datasets download automatically. We can download 
 any dataset with **load_dataset()** function.
 
-
 **Importing data as Pandas dataframe**
-
 
 In this section, we will import a dataset. By default, this dataset loads as Pandas dataframe. There is a dataset called **tips** 
 in the library. We can import this dataset with the following line of code:-
@@ -306,9 +287,7 @@ To view all the available datasets in the Seaborn library, we can use the follow
 
 `print(sns.get_dataset_names())`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 9. Set aesthetic parameters with set( ) method
 
@@ -319,8 +298,7 @@ So, we can set the default aesthetic parameters by calling Seaborn's **set()** m
 
 `sns.set()`
 
-=================================================================================
-
+===============================================================================
 
 ## 10. Seaborn colour palette
 
@@ -364,9 +342,7 @@ Qualitative or categorical palettes are best suitable to plot the categorical da
 
 `plt.show()`
 
-
 We can see the desired number of colors by passing a value to the n_colors parameter. Here, the **palplot()** function is used to plot the array of colors horizontally.
-
 
 
 **Sequential Color Palettes**
@@ -422,9 +398,7 @@ is used for all plots.
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 11. Plotting Univariate Distribution with distplot()
 
@@ -444,8 +418,7 @@ We can use the **distplot()** function as follows:-
 
 `plt.show()`
 
-=================================================================================
-
+===============================================================================
 
 ## 12. Seaborn - Histogram
 
@@ -463,34 +436,27 @@ We can use the same **distplot()** function to plot a histogram as follows:-
 
 The kde parameter is set to false. As a result, the representation of the kernel estimation plot will be removed and only histogram is plotted.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 13. Seaborn – Kernel Density Estimation
 
 
 Kernel Density Estimation (KDE) is a way to estimate the probability density function of a continuous random variable. It is used for non-parametric analysis. 
 
-
 Setting the hist parameter to false in distplot() function will yield the kernel density estimation plot.
-
 
 `sns.distplot(tips['total_bill'], hist=False)`
 
 `plt.show()`
 
-=================================================================================
-
+===============================================================================
 
 ## 14. Plotting Bivariate Distribution with jointplot()
-
 
 Bivariate Distribution is used to determine the relation between two variables. This mainly deals with relationship between two variables and how one variable is behaving with respect to the other. 
 
 
 The best way to analyze Bivariate Distribution in seaborn is by using the **jointplot()** function. 
-
 
 **Jointplot()** creates a multi-panel figure that projects the bivariate relationship between two variables and also the univariate distribution of each variable on separate axes.
 
@@ -499,12 +465,9 @@ The best way to analyze Bivariate Distribution in seaborn is by using the **join
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 15. Seaborn – Scatter Plot
-
 
 A scatter plot can be used to demonstrate relationship between two variables x and y. A simple scatter plot can be drawn as follows:-
 
@@ -512,12 +475,9 @@ A scatter plot can be used to demonstrate relationship between two variables x a
 
 `plt.show()`
 
-
 The relationship between the variables can be shown for different subsets of the data using the hue, size and style parameters.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 16. Visualizing pairwise relationship with pairplot()
 
@@ -531,14 +491,11 @@ combination of variable in a dataframe as a matrix of plots and the diagonal plo
 
 We can plot a pairplot as as follows:-
 
-
 `sns.set_style("ticks")`
 
 `sns.pairplot(tips)`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 17. Plotting categorical data
 
@@ -548,36 +505,26 @@ These plots are not suitable when the variable under study is categorical.
 When one or both the variables under study are categorical, we can use plots like **striplot()** and **swarmplot()** to plot 
 categorical data.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 18. Seaborn – Strip Plot
-
 
 A **stripplot()** is used to draw a scatterplot where one variable is categorical. It represents the data in sorted order along 
 any one of the axis.
 
-
 We can plot a stripplot as follows:-
-
 
 `sns.stripplot(x="day", y="total_bill", data=tips)`
 
 `plt.show()`
 
-
-
 We can add jitter to bring out the distribution of values as follows:-
-
 
 `sns.stripplot(x="day", y="total_bill", data=tips, jitter=True)`
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 19. Seaborn – Swarm Plot
 
@@ -596,9 +543,7 @@ We can plot a swarmplot as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 20. Distribution of Observations
 
@@ -607,8 +552,7 @@ When dealing with a dataset, the first thing that we want to do is get a sense f
 
 We can use box plots and violin plots to plot the data distribution.
 
-
-=================================================================================
+===============================================================================
 
 ## 21. Seaborn – Box Plot
 
@@ -629,7 +573,6 @@ We can plot a box-plot as follows:-
 
 `plt.show()`
 
-
 We can draw a vertical boxplot grouped by a categorical variable as follows:-
 
 
@@ -637,24 +580,18 @@ We can draw a vertical boxplot grouped by a categorical variable as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 22. Seaborn – Violin Plot
-
 
 Violin Plots are combinations of the box plot with the kernel density estimates. So, these plots are easier to analyze and 
 understand the distribution of the data.
 
-
 We can draw a single horizontal violin plot as follows:-
-
 
 `sns.violinplot(x=tips["total_bill"])`
 
 `plt.show()`
-
 
 We can draw a vertical violinplot grouped by a categorical variable as follows:-
 
@@ -663,24 +600,18 @@ We can draw a vertical violinplot grouped by a categorical variable as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 23. Statistical estimation with Seaborn
-
 
 Sometimes, we need to estimate central tendency of a distribution. Mean and median are the very often used techniques to estimate 
 the central tendency of the distribution.
 
 We can use bar plot and point plot to measure the central tendency of a distribution.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 24. Seaborn – Bar Plot
-
 
 A **barplot** shows the relation between a categorical variable and a continuous variable. The data is represented in rectangular 
 bars where the length of the bar represents the proportion of the data in that category. 
@@ -696,9 +627,7 @@ We can draw a set of vertical bar plot grouped by a categorical variable as foll
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 25. Seaborn - Point Plot
 
@@ -714,9 +643,7 @@ We can draw a set of vertical point plots grouped by a categorical variable as f
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 26. Linear relationships with Seaborn
 
@@ -730,30 +657,22 @@ While building the regression models, we often check for multicollinearity, wher
 
 There are two main functions in Seaborn to visualize a linear relationship determined through regression. These functions are **regplot()** and **lmplot()**. There is a third function **residplot()** that plot the residuals of a linear regression model.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 27. Seaborn – Reg plot
-
 
 The function **regplot()** plot data and a linear regression model fit. It draws a scatterplot of two variables, x and y, and then 
 fit the regression model y ~ x and plot the resulting regression line and a 95% confidence interval for that regression.
 
-
 We can draw the scatterplot and regression line using regplot() as follows:-
-
 
 `sns.regplot(x="total_bill", y="tip", data=tips)`
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 28. Seaborn – Lm plot
-
 
 The function **lmplot()** plot data and regression model fits across a FacetGrid. This function combines regplot() and FacetGrid. 
 It is intended as a convenient interface to fit regression models across conditional subsets of a dataset.
@@ -769,9 +688,7 @@ We can plot a simple linear relationship between two variables using lmplot() as
 
 The regplot() and lmplot() functions are closely related, but the former is an axes-level function while the latter is a figure-level function that combines regplot() and FacetGrid.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 29. Seaborn – Resid plot
 
@@ -783,28 +700,19 @@ The function **residplot()** plot the residuals of a linear regression. We can p
 
 `plt.show()`
 
-
-=================================================================================
-
-
+===============================================================================
 
 ## 30. Matrix plots with Seaborn
 
-
 There are two functions which enable us to plot data in the form of a matrix. These are heat map and cluster map.
 
- 
-=================================================================================
-
+===============================================================================
 
 ## 31. Seaborn – Heat map
 
-
 Seaborn **heatmap()** function plot rectangular data as a color-encoded matrix.
 
-
 We can plot a heatmap for a numpy array as follows:-
-
 
 `uniform_data = np.random.rand(10, 12)`
 
@@ -812,9 +720,7 @@ We can plot a heatmap for a numpy array as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 32. Seaborn – Cluster map
 
@@ -830,9 +736,7 @@ We can plot a clustered heatmap of tips dataset as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 33. Multi-plot grids with Seaborn
 
@@ -840,12 +744,9 @@ When exploring medium-dimensional data, a useful approach is to draw multiple in
 
 Seaborn provides three types of grids – **facet grid**, **pair grid** and **joint grid** to draw multiple instances of the same plot.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 34. Seaborn – Facet Grid
-
 
 Seaborn **Facetgrid()** function enable us to draw multi-plot grid for plotting conditional relationships.
 
@@ -872,15 +773,11 @@ We can draw a univariate plot on each facet as follows:-
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 35. Seaborn – Pair Grid
 
-
 Seaborn **PairGrid()** function draws subplot grid for plotting pairwise relationships in a dataset.
-
 
 We can draw a scatterplot for each pairwise relationship using PairGrid() function as follows:-
 
@@ -901,10 +798,7 @@ We can show a univariate distribution on the diagonal as follows:-
 
 `g = g.map_offdiag(plt.scatter)`
 
-
-=================================================================================
-
-
+===============================================================================
 
 ## 36. Seaborn – Joint Grid
 
@@ -925,10 +819,7 @@ We can add plots using default parameters as follows:-
 
 `g = g.plot(sns.regplot, sns.distplot)`
 
-
-=================================================================================
-
-
+===============================================================================
 
 ## 37. Summary
 
@@ -948,23 +839,17 @@ I visualize pairwise relationship with pairplot() function. Then, I plot categor
 
 I visualize the linear relationships between variables with Seaborn reg plot and lm plot. I visualize the residuals with Seaborn resid plot. I discuss Seaborn heat map and cluster map. Then, I discuss multi-plot grids with Seaborn. I discuss facet grid, pair grid and joint grid.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 38. References
 
-
 The Seaborn plots and galleries in this project are taken from the following websites:-
 
+1.	Seaborn official documentation (https://seaborn.pydata.org/)
 
-i.	Seaborn official documentation (https://seaborn.pydata.org/)
+2.	https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
 
-
-ii.	https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
-
-
-iii.	Seaborn tutorial from tutorialspoint
+3.	Seaborn tutorial from tutorialspoint
 
 
 
