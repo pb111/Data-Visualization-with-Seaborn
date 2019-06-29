@@ -85,7 +85,7 @@ The contents of this project is divided into various sections which are listed b
 38.	References
 
 
-=================================================================================
+================================================================================
 
 
 ## 1. Introduction to Seaborn
